@@ -18,7 +18,6 @@ jobs:
                 which python3
             - name: Install dependencies
               run: |
-                source .venv/bin/activate
                 pip install -r requirements.txt
             - name: Run tests
               run: |
